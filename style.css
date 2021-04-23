@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('image/gymback.jpg');
+  background-repeat: no-repeat;
+  background-size: 2000px; 
+  color: white;
+}
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(247, 247, 247);
+}    
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 33px;
+    height: 60px;
+}
+.logo{
+    width: 200px;
+    filter: invert(100%);
+}
+.logo:hover{
+    cursor: pointer;
+}
+nav .links{
+    list-style: none;
+}
+nav .links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+nav .links li a :active{
+    text-decoration: underline;
+}
+nav .links li a{
+    transition: all .3s ease 0s;
+    text-transform: uppercase;
+
+}
+nav .links li a:hover{
+    color:rgb(12, 238, 61) ;
+}
+button{
+  padding: 5px 60px;  
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(12, 238, 61);
+  color: black; 
+  cursor: pointer;
+  transition: all .3s ease 0s;
+  
+}
+button:hover{
+    color:rgb(192, 187, 187)
+}
+h2{
+    font-weight: 500px;
+    font-size: 150px;
+    font-family: 'Montserrat';
+    margin-left: 200px;
+}
+p{
+    font-weight: 200px;
+    font-size: 50px;
+    font-family: 'Montserrat';
+    margin-left: 200px;
+}
+.btn a{
+    border: 3px solid rgb(106, 255, 106);
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 200px;
+    border-radius: 20px;
+    color: rgb(0, 255, 0);
+}
+.btn a:hover{
+    color: white;
+    background-color:  rgba(62, 204, 27, 0.548);
+    border: 2px solid rgb(97, 95, 95);
+}
